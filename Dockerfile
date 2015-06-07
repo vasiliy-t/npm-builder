@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM leanlabs/builder-base
 
 COPY ./entry.sh /entry.sh
 
@@ -14,7 +14,3 @@ RUN apk add --update \
     rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["/entry.sh"]
-
-VOLUME ["/data", "/cache"]
-
-WORKDIR /data
