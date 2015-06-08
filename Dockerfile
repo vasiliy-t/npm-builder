@@ -1,4 +1,4 @@
-FROM leanlabs/builder-base
+FROM leanlabs/base-builder:latest
 
 COPY ./entry.sh /entry.sh
 
