@@ -1,4 +1,6 @@
-# Nodejs + npm docker image
+# Nodejs + npm docker builder image
+
+[![](https://badge.imagelayers.io/leanlabs/npm-builder:latest.svg)](https://imagelayers.io/?images=leanlabs/npm-builder:latest 'Get your own badge on imagelayers.io')
 
 ### Usage
 
